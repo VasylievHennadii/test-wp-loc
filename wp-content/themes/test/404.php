@@ -1,5 +1,8 @@
 <?php get_header(); ?>
 
-<h1>404</h1>
+<div class="container">
+    <h1><?php _e( 'Oops! That page can&rsquo;t be found.', 'twentynineteen' ); ?></h1>
+</div>
 
-<?php get_footer(); ?>
+<?php 
+get_footer(); 
