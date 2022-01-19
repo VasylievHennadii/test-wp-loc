@@ -24,7 +24,7 @@
                         <div class="blog_left_sidebar">
                             <article class="blog_item">
                                 <div class="blog_item_img">
-                                    <img class="card-img rounded-0" src="assets/img/blog/single_blog_1.png" alt="">
+                                    <img class="card-img rounded-0" src="<?php echo get_stylesheet_directory_uri(); ?>/img/blog/single_blog_1.png" alt="">
                                     <a href="#" class="blog_item_date">
                                         <h3>15</h3>
                                         <p>Jan</p>
