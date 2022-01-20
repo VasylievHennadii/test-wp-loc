@@ -1,24 +1,12 @@
 <!doctype html>
 <html <?php language_attributes(); ?>>
+
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     
-
-    <?php wp_head();?>
-    <!-- CSS here -->
-        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/bootstrap.min.css">
-        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/owl.carousel.min.css">
-        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/flaticon.css">
-        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/slicknav.css">
-        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/animate.min.css">
-        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/magnific-popup.css">
-        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/fontawesome-all.min.css">
-        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/themify-icons.css">
-        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/slick.css">
-        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/nice-select.css">
-        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/style.css">
-    
+    <?php wp_head(); ?>
 </head>
+
 <body>
     <header>
         <!-- Header Start -->
@@ -32,8 +20,8 @@
                         </div>
                         <!-- Main-menu -->
                         <div class="main-menu d-none d-lg-block">
-                            <nav>                                                
-                                <ul id="navigation">  
+                            <nav>
+                                <ul id="navigation">
                                     <li><a href="index.html">Home</a></li>
                                     <li><a href="shop.html">shop</a></li>
                                     <li><a href="about.html">about</a></li>

@@ -92,42 +92,7 @@
             </form>
         </div>
     </div>
-    <!-- Search model end -->
-
-    <!-- JS here -->
-
-    <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/vendor/modernizr-3.5.0.min.js"></script>
-    <!-- Jquery, Popper, Bootstrap -->
-    <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/popper.min.js"></script>
-    <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/bootstrap.min.js"></script>
-    <!-- Jquery Mobile Menu -->
-    <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.slicknav.min.js"></script>
-
-    <!-- Jquery Slick , Owl-Carousel Plugins -->
-    <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/owl.carousel.min.js"></script>
-    <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/slick.min.js"></script>
-
-    <!-- One Page, Animated-HeadLin -->
-    <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/wow.min.js"></script>
-    <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/animated.headline.js"></script>
-    
-    <!-- Scrollup, nice-select, sticky -->
-    <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.scrollUp.min.js"></script>
-    <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.nice-select.min.js"></script>
-    <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.sticky.js"></script>
-    <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.magnific-popup.js"></script>
-
-    <!-- contact js -->
-    <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/contact.js"></script>
-    <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.form.js"></script>
-    <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.validate.min.js"></script>
-    <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/mail-script.js"></script>
-    <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.ajaxchimp.min.js"></script>
-    
-    <!-- Jquery Plugins, main Jquery -->	
-    <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/plugins.js"></script>
-    <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/main.js"></script>
+    <!-- Search model end -->    
 
 <?php wp_footer();?>
 
