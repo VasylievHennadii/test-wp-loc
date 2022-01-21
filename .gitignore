@@ -30,6 +30,7 @@ Thumbs.db
 /readme.html
 /wp-*.php
 /xmlrpc.php
+/wp-content/db.php
 
 # Configuration
 wp-config.php
