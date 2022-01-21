@@ -1,1 +1,0 @@
-C:/OpenServer/OSPanel/domains/test-wp-loc/wp-content/plugins/query-monitor/wp-content/db.php
