@@ -1,5 +1,35 @@
 <?php
 
+// add_image_size('post_preview', 750, 375, 1);
+
+add_image_size('post_preview', 750, 375, 1);
+add_image_size('post_image', 750, 350, 1);
+
+add_action('after_setup_theme', function () {
+    add_theme_support('title-tag');
+    //    add_theme_support('custom-logo');
+    add_theme_support('post-thumbnails');
+    add_theme_support('woocommerce');
+    add_theme_support('html5');
+
+    add_theme_support('custom-logo', array(
+        'height'      => 50,
+        'width'       => 137,
+    ));
+
+    // Сделаем тему доступной для перевода
+    // Файлы перевода должны находиться в каталоге /languages/
+    //load_theme_textdomain( 'artjoker', get_template_directory() );
+
+    /*
+    register_nav_menus(array(
+            'primary-menu' => 'Главное меню',
+            'mobile-menu' => 'Мобильное меню',
+        )
+    );
+*/
+});
+
 /*
  * Подключение скриптов и стилей
  */
@@ -75,3 +105,4 @@ function test_scripts(){
 }
 
 add_action('wp_enqueue_scripts', 'test_scripts');
+

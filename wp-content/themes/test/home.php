@@ -27,11 +27,13 @@
                                 <?php the_post(); ?>
                                 <article class="blog_item">
                                     <div class="blog_item_img">
-                                        <img class="card-img rounded-0" src="<?php echo get_stylesheet_directory_uri(); ?>/img/blog/single_blog_1.png" alt="">
-                                        <a href="#" class="blog_item_date">
-                                            <h3>15</h3>
-                                            <p>Jan</p>
-                                        </a>
+                                        <?php if (get_the_post_thumbnail_url()) : ?>
+                                            <img class="card-img rounded-0" src="<?php echo get_the_post_thumbnail_url(get_the_ID(), 'post_preview'); ?>" alt="<?php esc_attr(get_the_title()); ?>">
+                                            <a href="#" class="blog_item_date">
+                                                <h3>15</h3>
+                                                <p>Jan</p>
+                                            </a>
+                                        <?php endif; ?>
                                     </div>
 
                                     <div class="blog_details">
@@ -41,8 +43,8 @@
                                         <p>That dominion stars lights dominion divide years for fourth have don't stars is that
                                             he earth it first without heaven in place seed it second morning saying.</p>
                                         <ul class="blog-info-link">
-                                            <li><a href="#"><i class="fa fa-user"></i> Travel, Lifestyle</a></li>
-                                            <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
+                                            <li><a href="<?php the_permalink(); ?>"><i class="fa fa-user"></i> Travel, Lifestyle</a></li>
+                                            <li><a href="<?php the_permalink(); ?>"><i class="fa fa-comments"></i> 03 Comments</a></li>
                                         </ul>
                                     </div>
                                 </article>
